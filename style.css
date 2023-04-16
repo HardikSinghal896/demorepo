@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+  }
+  
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #5b6976;
+    position: fixed;
+    top: 0%;
+  }
+  .main_logo {
+    display: flex;
+  }
+  .logo {
+    width: 45px;
+    margin-left: 5rem;
+    margin-top: 8px;
+    height: 45px;
+  }
+  .search_icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 9rem;
+    top: 18px;
+  }
+  .input {
+    width: 20rem;
+    border-radius: 7px;
+    margin-left: 11px;
+    background-color: #85919c;
+    color: white;
+    font-size: 17px;
+    /* cursor: pointer; */
+    height: 37px;
+    margin-top: 13px;
+    padding-left: 3rem;
+  }
+  .all-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .icon-text {
+    color: white;
+    font-size: 13px;
+  }
+  
+  .icon {
+    width: 28px;
+    margin-top: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home {
+    margin-left: 35rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .Network {
+    margin-left: 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  
+  }
+  .jobs {
+    margin-left: 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  
+  }
+  .message {
+    margin-left: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  
+  }
+  .notification {
+    margin-left: 1.8rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  
+  }
+  .background {
+    width: 73.4vw;
+    height: 25vh;
+  }
+  .profile-img {
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 4rem;
+    margin-top: -3rem;
+  }
+  .name {
+    color: white;
+    font-size: 25px;
+    width: 64%;
+    margin-left: 2.9rem;
+  }
+  .text {
+      color: white;
+      width: 90%;
+      margin-top: 1rem;
+      padding-bottom: 2rem;
+      display: flex;
+      margin-left: auto;
+      font-size: 14px;
+  }
+  .background-color {
+    background-color: gray;
+  }
+  .profile {
+    background-color: gray;
+    height: 30rem;
+  }
+  
+  .connection {
+      font-size: 17px;
+      color: lightgray;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-left: 20px;
+  }
+  .grow {
+    font-size: 18px;
+    color: white;
+    padding: 7px 20px;
+  }
+  .con-grow {
+    padding: 11px;
+  }
+  .link {
+    font-size: 15px;
+    color: #2941ec;
+    cursor: pointer;
+    padding-left: 8px;
+  }
+  .premium {
+    font-size: 17px;
+    padding: 8px;
+  }
+  .premium-section {
+    padding: 16px;
+  }
+  .saved {
+    width: 30px;
+    margin-top: 25px;
+    margin-left: 3rem;
+  }
+  .save-text {
+    font-size: 21px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .save-item {
+    margin-top: 1.5rem;
+  }
+  
+  .section {
+    min-width: 230px;
+    min-height: 200px;
+    background-color: gray;
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .groups {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .group {
+    color: rgb(19, 16, 209);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .discover {
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      margin-left: 2.7rem;
+      margin-top: 2.5rem;
+  }
+  .discover:hover {
+    text-shadow: 10px 10px 11px black;
+    cursor: pointer;
+  }
+  
+  main {
+    min-height: calc(100vh - 110px);
+    display: flex;
+    padding: 90px 150px 16px 150px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: rgb(62, 59, 59);
+  }
+  
+  .section1 {
+    min-width: 230px;
+    min-height: 300px;
+    background-color: rgb(62, 59, 59);
+  }
+  .section2 {
+    min-width: 40rem;
+    min-height: 300px;
+    max-height: 510px;
+    background-color: gray;
+  }
+  .upperdiv {
+    display: flex;
+  }
+  
+  .section2-profile-img {
+      width: 55px;
+      border-radius: 100%;
+      margin-left: 6rem;
+      margin-top: 2.8rem;
+      height: 51px;
+  }
+  .searchbar-middle {
+      width: 26rem;
+      height: 2.7rem;
+      margin-top: 3rem;
+      border-radius: 38px;
+      margin-left: 1rem;
+      background-color: lightgray;
+      font-size: 17px;
+      padding-left: 2rem;
+  }
+  
+  .upperdiv2 {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 25px;
+    margin-top: 20px;
+  }
+  .upperdiv2 > p {
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+  }
+  .upperdiv2:hover {
+    cursor: pointer;
+  }
+  
+  .upperdiv2 > p > img {
+    margin-right: 1rem;
+  }
+  
+  .upperdiv3 {
+    width: 60px;
+    margin: 15px;
+  }
+  .fresher {
+    display: flex;
+    width: 17rem;
+  }
+  .fresher-text {
+    color: #d8d8d8;
+    font-size: 23px;
+    margin-left: 11px;
+    padding-top: 10px;
+  }
+  .follower {
+    color: black;
+    font-size: 19px;
+  }
+  .texts {
+      width: 45rem;
+      font-size: 20px;
+      color: white;
+      border-bottom: 2px solid darkgray;
+      padding-bottom: 10px;
+  }
+  .texts-text1 {
+    margin-top: 2rem;
+    letter-spacing: 2px;
+  }
+  .texts-text2 {
+    margin-top: 2rem;
+  }
+  
+  .like {
+    display: flex;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+    padding-top: 14px;
+  }
+  .like-comment-btn {
+    margin-left: 20px;
+    display: flex;
+  }
+  .like-logo {
+    width: 30px;
+  }
+  .like-text {
+    margin-top: 9px;
+    padding-left: 10px;
+  }
+  .com-repost-send-logo {
+    width: 30px;
+    margin-left: 60px;
+  }
+  .com-repost-send-text {
+    margin-left: 10px;
+  }
+  .like :hover {
+    text-shadow: 8px 8px 8px black;
+  }
+  .like {
+    cursor: pointer;
+  }
+  
+  .uppwediv4 {
+    min-width: 40rem;
+    min-height: 250px;
+    max-height: 650px;
+    background-color: gray;
+    margin-top: 4rem;
+    margin-left: -1rem;
+  }
+  .job-search {
+    display: flex;
+  }
+  .job-text {
+    color: white;
+    margin-left: 4rem;
+    padding-top: 3rem;
+  }
+  .job-title {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .job-desc {
+    font-size: 17px;
+  }
+  .job-img {
+    margin: 30px 60px;
+  }
+  .btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%),
+      inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .btn:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+      0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+  }
+  .btn:active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+  }
+  .btn > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .mini-img1 {
+    width: 25px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-right: -13px;
+  }
+  .mini-img2 {
+    width: 25px;
+    border-radius: 100px;
+    margin-right: -9px;
+  }
+  
+  .section3 {
+    min-width: 20vw;
+    max-height: 900px;
+    background-color: gray;
+    max-width: 25vw;
+  }
+  .linkedin-name {
+    font-size: 28px;
+    color: white;
+    margin: 25px 25px;
+  }
+  .section3-last {
+    background-color: #646464;
+  }
+  .hier {
+    width: 62%;
+    font-size: 17px;
+    margin: 10px 30px;
+    color: white;
+    word-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .li-text-1 {
+    color: #423c3c;
+  }
+  .ipl2 {
+      width: 60%;
+      font-size: 17px;
+      margin: 20px 30px;
+      cursor: pointer;
+      color: white;
+      word-spacing: 2px;
+      font-weight: bold;
+  }
+  .ipl {
+      width: 84%;
+      font-size: 18px;
+      margin: 20px 30px;
+      cursor: pointer;
+      color: white;
+      word-spacing: 2px;
+      font-weight: bold;
+  }
+  .big {
+    width: 74%;
+  }
+  
+  .upperdiv5 {
+    min-height: 50vh;
+  }
+  
+  .section3-1 {
+    width: 100%;
+    background-color: #646464;
+    height: 33vh;
+  }
+  .keep-text {
+      color: white;
+      font-size: 18px;
+      padding: 20px 17px;
+  }
+  .company-my-img {
+    display: flex;
+    justify-content: center;
+  }
+  .circle-my-img {
+      border-radius: 133%;
+      margin-right: 25px;
+      border: 1px solid black;
+      width: 80px;
+      height: 77px;
+  }
+  .square-company-img {
+      border: 1px solid black;
+      width: 80px;
+      height: 76px;
+  }
+  .last-text {
+      color: white;
+      width: 75%;
+      margin: auto;
+      padding-top: 35px;
+      font-size: 17px;
+  }
+  .btn2 {
+    display: inline-block;
+    outline: 0;
+    appearance: none;
+    padding: 0px 12px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(9, 128, 76);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    transition: all 150ms ease-in-out 0s;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 6rem;
+    font-size: 20px;
+  }
+  .btn2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 97, 73);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+  }
+  
+  footer {
+    height: 40px;
+    background-color: black;
+  }
+  
